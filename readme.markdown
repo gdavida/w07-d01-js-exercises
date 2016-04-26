@@ -1,4 +1,5 @@
 # Week 07, Day 01 - Practice
+https://s3-us-west-2.amazonaws.com/week07javascriptexercises/index.html
 
 ## Description
 
