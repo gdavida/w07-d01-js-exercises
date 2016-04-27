@@ -217,9 +217,9 @@ function shoutKitty(el) {
 
 
 function noShoutKitty(el) {
-	el.classList.remove("showKitty");
+	el.classList.remove("shoutKitty");
 	el.classList.add("hide");
-	var link = document.getElementById("kittyPic");
+	var link = document.getElementById("noShout");
 	link.innerHTML=("this link");
 }
 
