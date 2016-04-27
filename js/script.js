@@ -208,7 +208,7 @@ function rightJustifyPara4() {
 }
 
 function shoutKitty(el) {
-	var shout = el.innerHTML.toUpperCase();
+	var shout = el.innerHTML.toUpperCase() + "!!";
 	el.innerHTML=(shout);
 	var image = document.getElementById("kittyPic");
 	image.classList.remove("hide");
