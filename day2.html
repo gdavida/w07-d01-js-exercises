@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title class="week">Week 07, Day 02 - Practice</title>
+    <script src="./js/script.js"></script>
+    <script src="./js/day2scripts.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Week 7 Javascript Exercises</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Day 1</a>
+                    </li>
+                    <li>
+                        <a href="day2.html">Day 2</a>
+                    </li>
+                    <li>
+<!--                         <a href="day3.html">Day 3</a>
+ -->                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+<div class="container">
+
+<!-- HEADER -->
+    <div class="col-lg-12">
+        <h1 class="page-header week">Week 7, Day 2 Practice</h1>
+    </div>
+
+        <!-- LIST OF PURPLE BLACK THINGS -->
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+        <ol>
+          <li class="list-item" id="list-item-1">
+            <span id="clickPurple" onClick="purple();">Click me to turn me purple.</span>
+            <span  id="clickBlack" onClick="black()";>Click me again to turn me black.</span>
+          </li>
+          <li class="list-item" id="list-item-1">
+            <span id="clickPurple" onClick="purple();">Click me to turn me purple.</span>
+            <span  id="clickBlack" onClick="black()";>Click me again to turn me black.</span>
+          </li>
+          <li class="list-item" id="list-item-1">
+            <span id="clickPurple" onClick="purple();">Click me to turn me purple.</span>
+            <span  id="clickBlack" onClick="black()";>Click me again to turn me black.</span>
+          </li>
+          <li class="list-item" id="list-item-1">
+            <span id="clickPurple" onClick="purple();">Click me to turn me purple.</span>
+            <span  id="clickBlack" onClick="black()";>Click me again to turn me black.</span>
+          </li>
+          <li class="list-item" id="list-item-1">
+            <span id="clickPurple" onClick="purple();">Click me to turn me purple.</span>
+            <span  id="clickBlack" onClick="black()";>Click me again to turn me black.</span>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+        <p id="para1"> When you click <a href="#" onClick="orange();">This Link</a>, list items with a class of
+        "list-item" should turn orange. When you click <a href="#" onClick="notOrange()">this link</a>, they
+        should return to whatever color they would be otherwise (this might change if
+        you click on those items). This should override whether they are purple or
+        not.</p>
+        
+        <p id="para2">When you click<a href="#" onClick="hidePara1();">This link</a>, the above paragraph should
+        disappear. When you click <a href="#" onClick="showPara1();">This link</a>, it should reappear.</p>
+        
+        <p id="para3">When you click <a href="#" onClick="changeBackground();">this link</a>, the above paragraph should gain a blue blackground. When you click that link again, it should become orange. When you click it yet another time, it should go back to having a white background.</p>
+        
+        <p id="para4">When you click <a href="#" onClick="eon();">this link</a>, the word "Week" in the title
+        (defined in the head) and in the h1 should both become "Eon". When you click
+        the h1, both the h1 and the title should go back to saying "Week" (instead of
+        "Eon").</p>
+
+        <p id="para5" onClick="rightJustifyPara4()">When you click on this paragraph, the above paragraph should go from being
+        left-justified to right-justified.</p>
+
+        <p id="para6">Clicking <a href="#" onClick="shoutKitty(this);";>this link</a> changes the link's text to say "THIS
+        LINK!!" and makes a picture appear below this paragraph. Clicking the picture
+        returns the link text to what it was before and makes the picture
+        disappear.</p>
+        
+        <!-- the picture below should start as invisible and only appear when
+        something happens in the above paragraph -->
+        <img class="hide" id="kittyPic" onClick="noShoutKitty(this);" src="http://placekitten.com/g/400/300">
+
+        <p onClick="promptNewText(this);">Clicking this paragraph prompts the user for a word or phrase, then changes
+        the text of this paragraph to be that word or phrase</p>
+      </div>
+    </div>
+            
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Davida Gaffney</p>
+                </div>
+            </div>
+        </footer>
+
+</div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

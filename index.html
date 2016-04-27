@@ -1,78 +1,165 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Week 07, Day 01 - Practice</title>
-  <script src="./script.js"></script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title class="week">Week 07, Day 01 - Practice</title>
+    <script src="./js/script.js"></script>
+    <script src="./js/day2scripts.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+
 </head>
+
 <body>
 
-<!-- ANDREW START -->
-  <p><a href="#" onclick="sayHi();">Generic Greeting</a></p>
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand">Week 7 Javascript Exercises</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Day 1</a>
+                    </li>
+                    <li>
+                        <a href="day2.html">Day 2</a>
+                    </li>
+                    <li>
+<!--                         <a href="day3.html">Day 3</a>
+ -->                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
+    <!-- Page Content -->
+    <div class="container">
 
+        <div class="row">
 
-<!-- EVEN OR ODD -->
-  <p>
-  	<a href="#" onclick="evenOrOdd();">
-  		Even or Odd?
-  	</a>
-  </p>
+            <div class="col-lg-12">
+                <h1 class="page-header">Javascript Examples, Day 1</h1>
+            </div>
 
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb jsBox">
+                <!-- SHOUTY HELLO -->
+                <p>
+                    <a href="#" onclick="shoutyHello();">
+                        Shouty Hello
+                    </a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb jsBox">
+                <!-- EVEN OR ODD -->
+                <p>
+                    <a href="#" onclick="evenOrOdd();">
+                    Even or Odd?
+                </a>
+              </p>  
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb jsBox">
+              <p>
+              <!-- NUMBER PROMPTER -->
+                <a href="#" onclick="numberPrompter();">
+                     Number Prompter
+                </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb jsBox">
+              <p>
+              <!-- BOTTLES OF BEVERAGE -->
+                <a href="#" onclick="bottlesOfBeverage();">
+                     Bottles of Beverage
+                </a>
+              </p>
+                </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb jsBox">
+            <!-- FIZZBUZZ -->
+              <p>
+                <a href="#" onclick="fizzBuzz();">
+                     FizzBuzz
+                </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb jsBox">
+            <!-- WORD REVERSER -->
+              <p>
+                <a href="#" onclick="wordReverser();">
+                     WordReverser
+                </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb jsBox">
+            <!-- DRIVERS LICENSE -->
+              <p>
+                <a href="#" onclick="driversLicense();">
+                     Driver's License
+                </a>
+              </p>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb jsBox">
+            <!-- WORD SORTER ALPHA-->
+              <p>
+                <a href="#" onclick="wordSorterAlpha();">
+                    Word Sorter - Alphabetically
+                </a>
+              </p>
 
-<!-- NUMBER PROMPTER -->
+            </div>
+            
+        </div>
 
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Davida Gaffney</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
-
-
-<!-- BOTTLES OF BEVERAGE -->
-  <p>
-  	<a href="#" onclick="bottlesOfBeverage();">
-  		 Bottles of Beverage
-  	</a>
-  </p>
-
-
-<!-- FIZZBUZZ -->
-  <p>
-  	<a href="#" onclick="fizzBuzz();">
-  		 FizzBuzz
-  	</a>
-  </p>
-
-
-
-<!-- WORD REVERSER -->
-  <p>
-  	<a href="#" onclick="wordReverser();">
-  		 WordReverser
-  	</a>
-  </p>
-
-
-
-<!-- DRIVERS LICENSE -->
-  <p>
-  	<a href="#" onclick="driversLicense();">
-  		 Driver's License
-  	</a>
-  </p>
-
-
-
-<!-- WORD SORTER ALPHA-->
-  <p>
-  	<a href="#" onclick="wordSorterAlpha();">
-  		 Word Sorter - Alphabetically
-  	</a>
-  </p>
-
-
-
-
-
-
-
-</body>
-</html
