@@ -95,7 +95,8 @@ div.navbar-header {
 
 .message-container {
 	margin: 10px 0px;
-}
+	font-style: italic;
+	}
 
 .score {
 	text-transform: uppercase;
@@ -108,11 +109,13 @@ div.navbar-header {
 	font-size: 24px;
 	text-transform: uppercase;
 	text-align: center;
+	font-style: normal;
 }
 #player-x-wins .outcome-message span, #player-o-wins .outcome-message span{
 	font-family: 'Monoton', cursive;
 	font-size: 100px;
 	vertical-align: middle;
+	font-style: normal;
 }
 
 #player-x-wins .outcome-message span {
