@@ -168,7 +168,7 @@ function showPara1(){
 
 
 var colorCount = 0;
-
+// kyles kept looping through, his checked for containing class of blue background or whatever color and then remove and replace classes if the one before it is there
 function changeBackground(){
 	var para = document.getElementById("para2");
 	if (colorCount === 0) {
