@@ -153,7 +153,7 @@ function nextPlayer() {
 		tieGame.classList = "visible";
 	}
 
-s}
+}
 
 
 
